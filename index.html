@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>포트폴리오</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,45 +14,65 @@
     <!-- header -->
     <header class="header">
         <div class="header__logo">
-            logo
+            <a href="#">
+                <i class="fab fa-algolia"></i>
+            </a>
         </div>
         <ul class="header__menu">
-            <li class="header__item">Home</li>
-            <li class="header__item">About</li>
-            <li class="header__item">Skills</li>
-            <li class="header__item">My work</li>
-            <li class="header__item">Testimonial</li>
-            <li class="header__item">Contact</li>
+            <li class="header__item">
+                <a href="#" class="">Home</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="">About</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="">Skills</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="">My work</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="">Testimonial</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="">Contact</a>
+            </li>
         </ul>
     </header>
 
     <!-- home -->
-    <section id="home">
-        <img src="" alt="" class="home__avatar">
-        <h1 class="home__title"></h1>
-        <h2 class="home__description"></h2>
+    <section id="home" class="section">
+        <img src="https://img.mimint.co.kr/tv/bbs/2020/2/10/20200210171754_txlnvhtf.png" alt="" class="home__avatar">
+        <h1 class="home__title">Hello, I'm DongWoo</h1>
+        <h2 class="home__description">
+            A Software Engineer currently residing in Syndney, Australia
+        </h2>
         <button class="home__contact">Contact Me</button>
     </section>
 
     <!-- about -->
-    <section id="about">
-        <div class="about__header">
-            <h2 class="about__title"></h2>
-            <p class="about__description"></p>
-        </div>
+    <section id="about" class="section">
+        <h1 class="about__title"></h1>
+        <p class="about__description"></p>
         <ul class="about__majors">
             <li class="about__major major">
-                <img src="" alt="" class="major__logo">
+                <div class="major__logo">
+                    <i class="fab fa-html5"></i>
+                </div>
                 <h3 class="major__title">Front-end</h3>
                 <p class="major__description">HTML, CSS, Javascript, TypeScript, React, Vue, Web APIs</p>
             </li>
             <li class="about__major major">
-                <img src="" alt="" class="major__logo">
+                <div class="major__logo">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
                 <h3 class="major__title">Mobile</h3>
                 <p class="major__description">Android, iOS, React Native, Flutter, Java, Swift, Kotlin</p>
             </li>
             <li class="about__major major">
-                <img src="" alt="" class="major__logo">
+                <div class="major__logo">
+                    <i class="fab fa-js-square"></i>
+                </div>
                 <h3 class="major__title">Back-end</h3>
                 <p class="major__description">Java, Javascript, Go, NodeJS, Rest APIs, GraphQL</p>
             </li>
@@ -65,13 +87,11 @@
     </section>
 
     <!-- skills -->
-    <section id="skills">
-        <div class="skills__header">
-            <h2 class="skills__title">Skills</h2>
-            <h3 class="skills__subtitle">Skills & Attributes</h3>
-            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod
-                assumenda voluptatum adipisci maxime quasi ipsam.</p>
-        </div>
+    <section id="skills" class="section">
+        <h1 class="skills__title">Skills</h1>
+        <h2 class="skills__subtitle">Skills & Attributes</h2>
+        <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod
+            assumenda voluptatum adipisci maxime quasi ipsam.</p>
         <div class="skills__skillset skillset">
             <div class="skillset__left">
                 <h4 class="skillset__title">Skills</h4>
@@ -163,105 +183,101 @@
     </section>
 
     <!-- work -->
-    <section id="work">
-        <div class="work__header">
-            <h2 class="work__title">My work</h2>
-            <h4 class="work__subtitle">Projects</h4>
-            <ul class="work_categories">
-                <li class="work__category category">
-                    <button class="category__btn">All</button>
-                </li>
-                <li class="work__category category">
-                    <button class="category__btn">Front-end</button>
-                </li>
-                <li class="work__category category">
-                    <button class="category__btn">Back-end</button>
-                </li>
-                <li class="work__category category">
-                    <button class="category__btn">Mobile</button>
-                </li>
-            </ul>
-            <ul class="work__projects">
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="work__project project">
-                    <a href="" class="project__link">
-                        <img src="" alt="" class="project__image">
-                        <div class="project__description">
-                            <h4 class="project__name">Lorem ipsum dolor sit.</h4>
-                            <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-                                reprehenderit.</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <section id="work" class="section">
+        <h1 class="work__title">My work</h1>
+        <h2 class="work__subtitle">Projects</h2>
+        <ul class="work_categories">
+            <li class="work__category category">
+                <button class="category__btn">All</button>
+            </li>
+            <li class="work__category category">
+                <button class="category__btn">Front-end</button>
+            </li>
+            <li class="work__category category">
+                <button class="category__btn">Back-end</button>
+            </li>
+            <li class="work__category category">
+                <button class="category__btn">Mobile</button>
+            </li>
+        </ul>
+        <ul class="work__projects">
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+            <li class="work__project project">
+                <a href="" class="project__link">
+                    <img src="" alt="" class="project__image">
+                    <div class="project__description">
+                        <h4 class="project__name">Lorem ipsum dolor sit.</h4>
+                        <p class="project__skills">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
+                            reprehenderit.</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </section>
 
     <!-- testimonial -->
-    <section id="testimonials">
-        <div class="testimonials__header">
-            <h2 class="testimonials__title">Testimonial</h2>
-            <h4 class="testimonials__subtitle">See what they say about me</h4>
-        </div>
+    <section id="testimonials" class="section">
+        <h1 class="testimonials__title">Testimonial</h1>
+        <h2 class="testimonials__subtitle">See what they say about me</h2>
         <ul class="testimonials">
             <li class="testimonials__testimonial testimonial">
                 <img src="" alt="" class="testimonial__avatar">
@@ -287,9 +303,9 @@
     </section>
 
     <!-- contact -->
-    <section id="contact">
-        <div class="contact__title">Let's Talk</div>
-        <div class="contact__email">dnehddn33@naver.com</div>
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's Talk</h1>
+        <h2 class="contact__email">dnehddn33@naver.com</h2>
         <ul class="contact__links">
             <li class="contact__link">
                 <a href="#">icon</a>
