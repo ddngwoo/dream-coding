@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>포트폴리오</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-            integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    <body>
-        <!-- header -->
-        <header class="header">
-            <div class="header__logo">
-                <a href="#">
-                    <i class="fab fa-algolia"></i>
-                </a>
-            </div>
-            <ul class="header__menu">
-                <li class="header__item">
-                    <a href="#" class="">Home</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="">About</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="">Skills</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="">My work</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="">Testimonial</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="">Contact</a>
-                </li>
-            </ul>
-        </header>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header__logo">
+            <i data-link="#home" class="fab fa-algolia"></i>
+        </div>
+        <ul class="header__menu">
+            <li class="header__item">
+                <span data-link="#home">Home</span>
+            </li>
+            <li class="header__item">
+                <span data-link="#about">About</span>
+            </li>
+            <li class="header__item">
+                <span data-link="#skills">Skills</span>
+            </li>
+            <li class="header__item">
+                <span data-link="#work">My work</span>
+            </li>
+            <li class="header__item">
+                <span data-link="#testimonials">Testimonial</span>
+            </li>
+            <li class="header__item">
+                <span data-link="#contact">Contact</span>
+            </li>
+        </ul>
+    </header>
 
-        <!-- home -->
-        <section id="home" class="section">
-            <div class="section__container">
-            <img src="https://img.mimint.co.kr/tv/bbs/2020/2/10/20200210171754_txlnvhtf.png" alt="" class="home__avatar">
+    <!-- home -->
+    <section id="home" class="section">
+        <div class="section__container">
+            <img src="https://img.mimint.co.kr/tv/bbs/2020/2/10/20200210171754_txlnvhtf.png" alt=""
+                class="home__avatar">
             <h1 class="home__title">Hello, I'm DongWoo</h1>
             <h2 class="home__description">
                 A Software Engineer currently residing in Syndney, Australia
             </h2>
             <button class="home__contact">Contact Me</button>
         </div>
-        </section>
+    </section>
 
-        <!-- about -->
-        <section id="about" class="section"> 
-            <div class="section__container">
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="section__container">
             <h1 class="about__title">About me</h1>
             <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat recusandae
-                doloribus, consectetur, ex voluptatum iure molestias nobis nulla optio dolor totam qui animi impedit, iste
+                doloribus, consectetur, ex voluptatum iure molestias nobis nulla optio dolor totam qui animi impedit,
+                iste
                 cum? Corrupti delectus at illo atque est!</p>
             <ul class="about__majors">
                 <li class="about__major major">
@@ -94,12 +94,12 @@
                     </div>
                 </li>
             </ul>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- skills -->
-        <section id="skills" class="section">
-            <div class="section__container">
+    <!-- skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
             <h1 class="skills__title">Skills</h1>
             <h2 class="skills__subtitle">Skills & Attributes</h2>
             <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod
@@ -187,11 +187,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
 
-        <!-- work -->
-        <section id="work" class="section">
-            <div class="section__container">
+    <!-- work -->
+    <section id="work" class="section">
+        <div class="section__container">
             <h1 class="work__title">My work</h1>
             <h2 class="work__subtitle">Projects</h2>
             <ul class="work__categories">
@@ -280,19 +280,20 @@
                     </a>
                 </li>
             </ul>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- testimonial -->
-        <section id="testimonials" class="section">
-            <div class="section__container">
+    <!-- testimonial -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
             <h1 class="testimonials__title">Testimonial</h1>
             <h2 class="testimonials__subtitle">See what they say about me</h2>
             <ul class="testimonials">
                 <li class="testimonials__testimonial testimonial">
                     <img src="" alt="" class="testimonial__avatar">
                     <div class="testimonial__speech-bubble speech-bubble">
-                        <p class="speech-bubble__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+                        <p class="speech-bubble__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Impedit
                             earum autem, at sequi quam ab laborum?</p>
                         <p class="speech-bubble__name">
                             <a href="" class="speech-bubble__link">dngwoo</a> / RecursiveSoft
@@ -301,7 +302,8 @@
                 </li>
                 <li class="testimonials__testimonial testimonial">
                     <div class="testimonial__speech-bubble speech-bubble">
-                        <p class="speech-bubble__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+                        <p class="speech-bubble__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Impedit
                             earum autem, at sequi quam ab laborum?</p>
                         <p class="speech-bubble__name">
                             <a href="" class="speech-bubble__link">dngwoo</a> / RecursiveSoft
@@ -310,12 +312,12 @@
                     <img src="" alt="" class="testimonial__avatar">
                 </li>
             </ul>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- contact -->
-        <section id="contact" class="section">
-            <div class="section__container">
+    <!-- contact -->
+    <section id="contact" class="section">
+        <div class="section__container">
             <h1 class="contact__title">Let's Talk</h1>
             <h2 class="contact__email">dnehddn33&#64;naver.com</h2>
             <ul class="contact__links">
@@ -329,8 +331,9 @@
             <p class="contact__rights">
                 2020 dongwoo · All rights reversed
             </p>
-            </div>
-        </section>
-        <script src="main.js"></script>
-    </body>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
 </html>

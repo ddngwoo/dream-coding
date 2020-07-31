@@ -129,31 +129,38 @@ figure {
   transition: all var(--animation-duration) ease-in-out;
 }
 
-.header__logo a {
+.header__logo{
+  padding: 0 5px;
+}
+.header__logo i {
   font-size: 30px;
+  color: var(--color-white);
   transition: color var(--animation-duration) linear;
-  padding: 0 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .header__menu {
   display: flex;
 }
-
-.header__item a {
+.header__item{
+  padding: 0 5px;
+}
+.header__item span {
   display: block;
-  height: 44px;
-  padding: 0 15px;
-  line-height: 44px;
+  padding: 5px 10px;
   cursor: pointer;
-  transition: color var(--animation-duration) linear;
+  color: var(--color-white);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all var(--animation-duration) linear;
 }
 
-.header__item a:hover,
-.header__logo a:hover {
-  color: var(--color-pink);
+.header__item span:active,
+.header__logo i:active {
+  transform: scale(.9)
+}
+
+.header__item span:hover{
+  border: 1px solid var(--color-white);
 }
 
 .header.header--dark {
@@ -164,6 +171,11 @@ figure {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+}
+
+.header__item span.active{
+  /* 우선순위 때문에 이렇게 설렉터 이름을 지정 */
+  border: 1px solid var(--color-white);
 }
 /* home */
 
